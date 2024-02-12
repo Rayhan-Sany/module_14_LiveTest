@@ -39,6 +39,8 @@ class WeatherDetails {
       "windSpeed": 7.3
     }
   ]''';
+
+
   List<dynamic>getWeatherDetailList(){
     List<dynamic> weatherDetailList=jsonDecode(jsonString);
     return weatherDetailList;
